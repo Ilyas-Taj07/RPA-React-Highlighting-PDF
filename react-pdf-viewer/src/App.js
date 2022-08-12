@@ -1,4 +1,5 @@
 import React from "react"
+import PDFDisplay from "./Components/PDFDisplay"
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       and Make sure you remove when you are ready to push it
       
       */}
+
+      <PDFDisplay />
 
     </div>
   );
